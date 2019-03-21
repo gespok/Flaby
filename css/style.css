@@ -78,6 +78,7 @@ h1{
     font-size: 40px;
     letter-spacing: 0px;
     color: #fff;
+    
 }
 .header-block p{
     font-size: 26px;
@@ -86,6 +87,7 @@ h1{
     color:#fff;
     letter-spacing: 0.2px;
     margin-bottom: 82px;
+    
 }
 .header-block__google-btn{
     background: #fff;
@@ -124,7 +126,6 @@ h1{
     letter-spacing: 0.2px;
     
 }
-
 .page-header__img1{
     display: block;
     position: absolute;
@@ -153,23 +154,159 @@ h1{
     height: 219px;
     left: -90px;
     top: 702px;
-   
+}
+.service{
+    text-align: center;
+}
+h2{
+    font-family:'RobotoSlab';
+    font-size: 24px;
+    line-height: auto;
+    text-transform: uppercase;
+    color:#494949;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 3.3px;
+}
+h2 span{
+    display: block;
+    font-family:'RobotoSlab';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    color:#7c7c7c;
+    margin: 0 auto;
+    letter-spacing: 1.5px;
+}
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.service-list img{
+    margin-bottom:22px;
+}
+.service-list p{
+    margin-top: 25px;
+    text-align: center;
+    padding: 0 26px 0 26px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
 }
 
-/*.page-header__img4{
+
+h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #494949;
+}
+.service-list__item{
+    list-style-type: none;
+}
+.line{
+    display: block;
+    width: 30px;
+    border-top: 2px solid #2eb0ec;
+    margin: -10px auto 85px auto;
+}
+
+.service-list li:nth-of-type(2) img{
+    margin-bottom:45px
+}
+.features{
+    display: flex;
+    justify-content: flex-end;
+}
+.feature-text{
+    flex-basis: 48.7%;
+}
+.feature-text h2{
+    font-family: 'RobotoSlab', sans-serif;
+    font-size: 32px;
+    color: #494949;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    text-align: left;
+    
+}
+.feature-text h2 span{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size:22px;
+    color: #494949;
+    opacity: 0.6;
+    margin-bottom: 15px;
+    letter-spacing: 0.2px;
+    margin-left:0;
+}
+.feature-text p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: -10px;
+    letter-spacing: 0.1px;
+    margin-bottom: 54px;
+}
+.feature-list{
+    margin-bottom: 62px;
+}
+.feature-list li{
+    line-height: 30px;
+    list-style-type: none;
+    position: relative;
+    letter-spacing: 0.1px;
+    margin-bottom: 9px;
+}
+.feature-list li::before{
+    content:"";
     display: block;
     position: absolute;
-    background: url(../img/header-bg.png) no-repeat;
-    width: 1670px;
-    height: 1670px;
-    left: 178px;
-    top: -207px;
-    
+    width: 20px;
+    height: 20px;
+    background: url(../img/list-point.png) no-repeat;
+    top: 5px;
+    left: -40px;
+}
+.secondary-btn{
+    text-decoration: none;
+    background: #66d4f4;
+    text-transform: uppercase;
+    padding: 16px 29px 18px 28px;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 6px;
+    letter-spacing: 1.3px;
+    box-shadow: 0 11px 15px #d0eff8;
+}
+.features-photo{
+    position: absolute;
+    display: block;
+    background: url(../img/features-phone.png) no-repeat;
+    width: 58%;
+    height: 583px;
+    top: 122px;
+    left: -89px;
+    background-size: contain;
+}
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advantages-list__item{
+    list-style-type: none;
+    flex-basis: 33%;
 }
 /*PAGE*/
 .page-header{
-    
-    padding: 45px 0 231px 0;
+   padding: 45px 0 231px 0;
    position: relative;
    background-color: #51aff7;
    z-index: 2;
@@ -185,10 +322,18 @@ h1{
     background-repeat: no-repeat;
     right: -427px;
     top: -207px;
-    z-index: 1;
 }
 
 .page-service{
-    
+    padding: 73px 0 113px 0;
     background: #fff;
+}
+.page-features{
+    background: url(../img/features-bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 129px 0 203px 0;
+}
+.page-advantages{
+    padding: 30px 0 70px 0;
 }
