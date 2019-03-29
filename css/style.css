@@ -461,7 +461,9 @@ position: absolute;
 }
 
  .review-slider__item{
-   align-items: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
  }
  .review-slider__item h4{
     font-size: 20px;
@@ -489,8 +491,12 @@ position: absolute;
      color:#7c7c7c;
  }
  .buttons{
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
-     justify-content: center;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
      margin-top: 38px;
      margin-left: -9px;
  }
