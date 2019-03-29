@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="843" height="309" viewBox="0 0 843 309">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.6;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        opacity: 0.8;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="-37" y="-11" width="918" height="332" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.164"/>
+      <feFlood result="flood" flood-opacity="0.11"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="-11" y="-37" width="865" height="384" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.164"/>
+      <feFlood result="flood" flood-opacity="0.11"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="_3rd" data-name="3rd" class="cls-1" y="26" width="843" height="257" rx="10" ry="10"/>
+  <rect id="_2nd" data-name="2nd" class="cls-2" x="26" width="790" height="309" rx="10" ry="10"/>
+</svg>
